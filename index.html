@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corecentric Cleaning</title>
+  <script></script>
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="corecentriccleaning.com">
+      <img src="img/core-centric.png" alt="Corecentric Cleaning Logo" class="logo" />
+    </a>
+    <div class="contact-info">
+      <p><strong><i class="fas fa-envelope"></i> </strong> <a
+          href="mailto:info@corecentriccleaning.com">info@corecentriccleaning.com</a></p>
+      <p><strong><i class="fas fa-phone-alt"></i></strong> <a href="tel:+11234567890">(604) 339-8817</a></p>
+      <p><strong><i class="fas fa-map-marker-alt"></i></strong> 201-4250 Kingsway Burnaby BC Canada V5H 4T7</p>
+    </div>
+  </header>
+
+  <nav id="navbar">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="vision.html">Our Core Belief</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="hamburger" id="hamburger-menu" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <section id="home" class="home">
+    <div class="main-content">
+      <div class="home-text">
+        <h1>Welcome to Corecentric Cleaning</h1>
+        <p>
+          At Corecentri Cleaning, we specialize in providing top-quality
+          commercial and residential cleaning services. Our mission is to
+          deliver exceptional results and create long-lasting relationships
+          with our clients.
+        </p>
+        <p>
+          We offer tailored cleaning programs to fit your unique needs,
+          ensuring every area receives the attention it deserves. From regular
+          office cleaning to specialized services like deep cleaning and
+          post-construction cleanup, we have you covered!
+        </p>
+        <a href="services.html" class="btn">Explore Our Services</a>
+      </div>
+      <div class="home-image">
+        <img src="img/home.jpg" alt="Cleaning Team in Action" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Corecentric Cleaning |
+    <a href="mailto:info@corecentriccleaning.com">info@corecentriccleaning.com</a> |
+    <a href="privacy-policy.html">Privacy Policy</a> |
+    <a href="terms-of-service.html">Terms of Service</a> |
+    <a href="sitemap.html">Sitemap</a>
+    <div class="social-links">
+      <a href="https://facebook.com/CorecentricCleaning" target="_blank">Facebook</a>
+      |
+      <a href="https://twitter.com/CorecentricClean" target="_blank">Twitter</a>
+      |
+      <a href="https://instagram.com/CorecentricCleaning" target="_blank">Instagram</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navbar = document.getElementById("navbar");
+      navbar.classList.toggle("active");
+    }
+  </script>
+</body>
+
+</html>
