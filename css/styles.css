@@ -734,6 +734,35 @@ textarea:focus {
   transform: translateY(-2px);
 }
 
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+.contact-section h2 {
+  color: #555;
+}
+.contact-section p {
+  font-size: 16px;
+}
+.email {
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+.email:hover {
+  text-decoration: underline;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .contact-container {
